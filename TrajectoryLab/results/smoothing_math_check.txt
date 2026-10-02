@@ -1,0 +1,5 @@
+Independent Python/SciPy mathematical cross-check. NOT execution of MATLAB code.
+jitter_before: {'score': np.float64(89.09009174868552), 'peak': np.float64(106.90811009842263), 'shift': np.float64(0.007404809887334993), 'span': 0, 'speed': np.float64(0.6412607213578911)}
+jitter_after: {'score': np.float64(0.5156867501590823), 'peak': np.float64(0.6188241001908987), 'shift': np.float64(0.030998238396634913), 'span': np.float64(17.6), 'speed': np.float64(0.7489982459255019)}
+broad_arc: {'score': np.float64(0.37684591037272114), 'peak': np.float64(0.4522150924472654), 'shift': np.float64(0.01582013701539316), 'span': np.float64(17.6), 'speed': np.float64(0.9572190106086559)}
+tight_arc: {'score': np.float64(4.40470371188945), 'peak': np.float64(5.28564445426734), 'shift': np.float64(2.274720919809112e-05), 'span': np.float64(0.0), 'speed': np.float64(0.9998647005595538)}
