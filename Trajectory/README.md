@@ -1,14 +1,15 @@
 # Trajectory
 
-这是原 TrajectoryLab 改名后的界面与运行调度目录。共享函数已经移到上一级 `utils`，控制器在 `controller`，接口转换在 `adapter`。
+界面与运行调度目录。共享函数位于 `utils`，控制器位于 `controller`，接口转换位于 `adapter`。
 
-从仓库根目录启动 `start_project7`，或从本目录启动 `start_trajectory`。兼容入口 `start_trajectory_lab` 会调用同一个新入口。
+从仓库根目录运行 `start_app`。`start_trajectory_lab` 仅作为旧名称的启动别名，最终也启动原生 App Designer 界面。
 
-- `src/P7App.m`：界面、绘图、路径确认。
-- `src/P7Session.m`：单次平台运行会话。
-- `src/p7_run.m`：MATLAB / Simulink 调度。
-- `src/p7_sf_*.m`：Simulink S-functions。
-- `experiments/`：独立 MATLAB 实验、扫描和原 MPC launch。
-- `models/`：本机由 build_p7_model 生成模型。
+- `designer/`：主界面、路径编辑器和噪声窗口的 `.mlapp`。
+- `src/TrajectoryAppController.m`：共享交互、路径处理、绘图、运行与导出逻辑，不创建控件。
+- `src/bind_designer_views.m`：按 Tag 连接控件与行为。
+- `src/SimulationSession.m`：单次运行的真实状态、估计、噪声和控制会话。
+- `src/run_simulation.m`：Simulink 调度，以及测试使用的 MATLAB 验证循环。
+- `src/sfun_*.m`：Simulink S-functions。
+- `models/`：由 `build_simulation_model` 生成的模型。
 
-详见仓库根目录 README 和 docs/目录重构与整合说明.md。
+独立实验及批量实验入口已删除。当前操作见 [三步界面使用说明](../docs/三步界面使用说明.md)。
