@@ -1,6 +1,7 @@
 function app = start_app
-% START_APP Launch the Trajectory GUI from the repository root.
+% START_APP Launch the native interface from this project copy.
 setup_paths;
-app = start_trajectory;
-if nargout == 0, clear app; end
+view=TrajectoryDesignerApp;
+app=view.Controller;
+if nargout==0, clear app; end
 end
