@@ -1,0 +1,9 @@
+# MATLAB and Simulink generated files
+*.asv
+*.slxc
+slprj/
+codegen/
+results/
+Trajectory/results/
+Thumbs.db
+.DS_Store
