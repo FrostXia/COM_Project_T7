@@ -1,0 +1,52 @@
+Metric,Value,Unit
+Export Timestamp,20261014_094501_640,
+Controller,mpc,
+Engine,simulink,
+Run Status,completed,
+Stop Reason,Desired duration reached. Simulation completed.,
+Trajectory Type,freehand,
+Path Length,230.72036849541061,m
+Desired Trajectory Speed,0.5,m/s
+Robot Speed,0.5,m/s
+Desired Duration,461.44073699082122,s
+Sample Period,0.10000000000000001,s
+Maximum Omega,1.2,rad/s
+Minimum Omega,-1.2,rad/s
+Robot Initial Pose,[-23.845913828793542;13.667523991620445;-2.9456433952416559],[m m rad]
+Reference Mode,time,
+Feedback,Common measured tracking error,
+Measurement Noise Coordinates,Body-frame tracking error [X_e Y_e theta_e],
+Measurement Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Gaussian Sigma,0.01,rad/s
+Measurement Gaussian Sigma,[0.016666666666666666;0.016666666666666666;0.0066666666666666671],[m m rad]
+Random Seed,42,
+Control Noise Enabled,true,
+Control Noise Bound (+/-),0.029999999999999999,rad/s
+Measurement Noise Enabled,true,
+Measurement Noise Bounds (+/-),[0.050000000000000003;0.050000000000000003;0.02],[m m rad]
+MPC Preview Steps,20,
+MPC Parameter: mode,nonlinear,
+MPC Parameter: Q,[1 0 0;0 1 0;0 0 1],
+MPC Parameter: R,1,
+MPC Parameter: terminalWeight,[0 0 0;0 0 0;0 0 0],
+MPC Parameter: maxIterations,100,
+MPC Parameter: tolerance,9.9999999999999995e-07,
+MPC Parameter: predictionSubsteps,4,
+Recorded Sample Count,4615,
+Recorded Sample Duration,461.40000000000003,s
+Reference Duration Covered,99.991171782732735,%
+Position Root Mean Square Error,1.0733128277490709,m
+Maximum Position Error,2.5155179360952906,m
+Heading Root Mean Square Error,21.338706402587537,deg
+Maximum Absolute Heading Error,176.21337385435871,deg
+Path Distance Root Mean Square Error,0.3634768389645287,m
+Maximum Path Distance,2.353436866905366,m
+Final Endpoint Distance,0.47979909641674212,m
+Maximum Absolute Angular Velocity,1.2,rad/s
+Angular Velocity Total Variation,1644.0868583311933,rad/s
+Angular Velocity Saturation Time,8.2574772431728736,%
+Mean Controller Computation Time,0.017143059913326108,s
+Maximum Controller Computation Time,0.038900900000000002,s
+Computation Deadline Miss Rate,0,%
+MPC Solver Failure Count,0,

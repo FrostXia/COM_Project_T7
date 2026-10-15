@@ -1,0 +1,50 @@
+Metric,Value,Unit
+Export Timestamp,20261014_092159_929,
+Controller,sf,
+Engine,simulink,
+Run Status,completed,
+Stop Reason,Desired duration reached. Simulation completed.,
+Trajectory Type,spiral,
+Path Length,325.38406279772573,m
+Desired Trajectory Speed,0.5,m/s
+Robot Speed,0.5,m/s
+Desired Duration,650.76812559545147,s
+Sample Period,0.10000000000000001,s
+Maximum Omega,1.2,rad/s
+Minimum Omega,-1.2,rad/s
+Robot Initial Pose,[1.965078194581634;-1.6996601796294357;-2.6451702289417232],[m m rad]
+Reference Mode,time,
+Feedback,Common measured tracking error,
+Measurement Noise Coordinates,Body-frame tracking error [X_e Y_e theta_e],
+Measurement Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Gaussian Sigma,0.01,rad/s
+Measurement Gaussian Sigma,[0.016666666666666666;0.016666666666666666;0.0066666666666666671],[m m rad]
+Random Seed,42,
+Control Noise Enabled,true,
+Control Noise Bound (+/-),0.029999999999999999,rad/s
+Measurement Noise Enabled,true,
+Measurement Noise Bounds (+/-),[0.050000000000000003;0.050000000000000003;0.02],[m m rad]
+Controller Parameter: v0,0.5,
+Controller Parameter: vr,0.5,
+Controller Parameter: wrNom,0.04827901900897686,
+Controller Parameter: poles,[-1 -2 -4],
+Controller Parameter: Q,[1 0 0;0 1 0;0 0 1],
+Controller Parameter: R,1,
+Recorded Sample Count,6508,
+Recorded Sample Duration,650.70000000000005,s
+Reference Duration Covered,99.989531510107525,%
+Position Root Mean Square Error,4.074430589280146,m
+Maximum Position Error,7.9683061123147487,m
+Heading Root Mean Square Error,51.985424026155883,deg
+Maximum Absolute Heading Error,179.99296838503625,deg
+Path Distance Root Mean Square Error,2.1223026643444949,m
+Maximum Path Distance,7.901139892319164,m
+Final Endpoint Distance,1.0854747126485407,m
+Maximum Absolute Angular Velocity,1.2,rad/s
+Angular Velocity Total Variation,13961.595476314313,rad/s
+Angular Velocity Saturation Time,49.961579837098519,%
+Mean Controller Computation Time,2.7932559926244658e-05,s
+Maximum Controller Computation Time,0.070071499999999995,s
+Computation Deadline Miss Rate,0,%
+Controller Failure Count,0,

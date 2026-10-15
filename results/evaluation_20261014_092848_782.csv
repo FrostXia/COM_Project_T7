@@ -1,0 +1,50 @@
+Metric,Value,Unit
+Export Timestamp,20261014_092848_782,
+Controller,sf,
+Engine,simulink,
+Run Status,completed,
+Stop Reason,Desired duration reached. Simulation completed.,
+Trajectory Type,spiral,
+Path Length,325.38406279772573,m
+Desired Trajectory Speed,0.69999999999999996,m/s
+Robot Speed,0.5,m/s
+Desired Duration,464.83437542532249,s
+Sample Period,0.10000000000000001,s
+Maximum Omega,1.2,rad/s
+Minimum Omega,-1.2,rad/s
+Robot Initial Pose,[1.965078194581634;-1.6996601796294357;-2.6451702289417232],[m m rad]
+Reference Mode,time,
+Feedback,Common measured tracking error,
+Measurement Noise Coordinates,Body-frame tracking error [X_e Y_e theta_e],
+Measurement Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Noise Distribution,Gaussian sigma=max/3; reject samples outside +/-max,
+Control Gaussian Sigma,0.01,rad/s
+Measurement Gaussian Sigma,[0.016666666666666666;0.016666666666666666;0.0066666666666666671],[m m rad]
+Random Seed,42,
+Control Noise Enabled,true,
+Control Noise Bound (+/-),0.029999999999999999,rad/s
+Measurement Noise Enabled,true,
+Measurement Noise Bounds (+/-),[0.050000000000000003;0.050000000000000003;0.02],[m m rad]
+Controller Parameter: v0,0.5,
+Controller Parameter: vr,0.69999999999999996,
+Controller Parameter: wrNom,0.06759062661256765,
+Controller Parameter: poles,[-1 -2 -4],
+Controller Parameter: Q,[1 0 0;0 1 0;0 0 1],
+Controller Parameter: R,1,
+Recorded Sample Count,4649,
+Recorded Sample Duration,464.80000000000001,s
+Reference Duration Covered,99.992604801378761,%
+Position Root Mean Square Error,6.4380705892736847,m
+Maximum Position Error,9.7028513813893049,m
+Heading Root Mean Square Error,49.546364339490005,deg
+Maximum Absolute Heading Error,178.95777694080007,deg
+Path Distance Root Mean Square Error,3.5894873752393646,m
+Maximum Path Distance,7.6694408822746176,m
+Final Endpoint Distance,3.7367077260191328,m
+Maximum Absolute Angular Velocity,1.2,rad/s
+Angular Velocity Total Variation,10166.983770541989,rad/s
+Angular Velocity Saturation Time,50.301204819276855,%
+Mean Controller Computation Time,1.7488040438804041e-05,s
+Maximum Controller Computation Time,0.0017156000000000001,s
+Computation Deadline Miss Rate,0,%
+Controller Failure Count,0,
